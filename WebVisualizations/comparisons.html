@@ -42,39 +42,67 @@
 
 
 <body>
+
 <div class="jumbotron text-center">
   <h1>Watched Analysis</h1>
   <p>Resize this responsive page to see the effect!</p> 
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3">
-      <h3><a href="visualization1.html">Visualization 1</a></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+<body>
+  <!-- Creates the Overall Grid -->
+  <div class="container">
+    <!--Title-->
+    <div class='row'>
+		
+        <div class = 'col-12'>
+			<h1>Comparisons</h1>
+            <br/>
+        </div>
     </div>
-    <div class="col-sm-3">
-      <h3><a href="visualization2.html">Visualization 2</a></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-3">
-      <h3><a href="visualization3.html">Visualization 3</a></h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-3">
-      <h3><a href="visualization4.html">Visualization 4</a></h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
-</body>
-</html>
+    <!-- First row of images -->
+    <div class='row text-center'>
+      <!-- Left side -->
+      <div class='col-md-6'>
+            <h5>Top 10 Directors</h5>
+            <a href='visualization1.html'>
+              <img class='w-75 img-thumbnail' src='Visualizations/directorspie.png' alt='Top 10 Directors'>
+            </a>
+      </div>    
+      <!-- Right Side -->
+      <div class='col-md-6'>
+        <h5>Most Watched Genres</h5>
+        <a href='visualization2.html'>
+          <img class='w-75 img-thumbnail' src='Visualizations/genres.png' alt='Most Watched Genres'>
+        </a>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class = 'col-12'>
+          <br/>
+      </div>
+    </div>
+
+    <!-- Second row of images -->
+    <div class='row text-center'>
+      <!-- Left side -->
+      <div class='col-md-6'>
+        <h5>Average Runtime</h5>
+            <a href='visualization3.html'>
+              <img class='w-75 img-thumbnail' src='Visualizations/runtime.png' alt='Average Runtime'>
+            </a>
+      </div>    
+      <!-- Right Side -->
+      <div class='col-md-6'>
+            <h5>Most Popular Years</h5>
+            <a href='visualization4.html'>
+              <img class='w-75 img-thumbnail' src='Visualizations/years.png' alt='Years'>
+          </a>
+      </div>
+    </div>
+
+  </div>       
+
+
+</body></html>
